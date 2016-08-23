@@ -21,7 +21,7 @@ Add youtube video source and a label for the link after the space
 
 ```
 
-{% modalYoutube %}https://www.youtube.com/watch?v=uRiLhXiDH18 Look at this video!{% endmodalYoutube %}
+{% modalYoutube %}https://www.youtube.com/watch?v=0fKg7e37bQE Look at this video!{% endmodalYoutube %}
 ```
 
 The video will be replace by the link with given label which opens a modal when clicked.
@@ -33,7 +33,7 @@ Use pipe to separate youtube link from label and from your custom html header co
 
 ```
 
-{% modalYoutube %}http://www.youtube.com/v/9bZkp7q19f0|Look at this video!|<a href="#">This is my custom header link!</a>{% endmodalYoutube %}
+{% modalYoutube %}https://www.youtube.com/watch?v=0fKg7e37bQE |Look at this video!|<a href="#">This is my custom header link!</a>{% endmodalYoutube %}
 ```
 Your custom header will appear on the left of close button:
 
